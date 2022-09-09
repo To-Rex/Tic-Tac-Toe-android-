@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#8C8C8C"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:text="Two players"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/switch1"  />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bu1"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="5pt"
+            android:text=""
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/bu2"
+            android:layout_margin="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/bu3"
+            android:layout_margin="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            tools:ignore="ButtonStyle" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bu4"
+            android:layout_margin="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/bu5"
+            android:layout_margin="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/bu6"
+            android:layout_margin="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            tools:ignore="ButtonStyle" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bu7"
+            android:layout_margin="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/bu8"
+            android:layout_margin="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/bu9"
+            android:layout_margin="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            tools:ignore="ButtonStyle" />
+
+    </TableRow>
+
+</TableLayout>
